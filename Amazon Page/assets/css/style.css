@@ -1,1 +1,194 @@
 /* Your styles here */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem; 
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: black;
+}
+h3{
+    font-weight: 750;
+}
+
+p {
+    font-size: 1rem; 
+    font-weight: 400; 
+    margin-bottom: 10px;
+    line-height: 1.5; 
+    color: darkslategrey;
+}
+p{
+    font-weight: 600;
+}
+
+header {
+    background-color: #232F3E;
+    padding: 20px 0;
+    text-align: left;
+    padding-left: 2%;
+}
+
+header img {
+    width: 10%;
+    height: auto; 
+}
+
+.menu {
+    background-color: #405C79; 
+    padding: 0.5% 0;  
+    text-align: left;
+    padding-left: 2%;
+}
+
+.menu ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: left; 
+}
+
+.menu li {
+    display: inline-block;  
+    margin-right: 2vw; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;  
+}
+
+
+.cards {
+    background-color: rgb(255, 128, 0); 
+    height: 100%;
+}
+
+.cards p {
+    color: white;
+    text-align: center;
+}
+
+main {
+    margin: 2%;
+}
+
+.gift {
+    color: white;
+    text-align: center;
+    padding-top: 3em;
+    background-image: url('../images/bg-image.png'), url('../images/bg-img.png');
+    background-size: contain, contain;
+    background-position: center, bottom;
+    background-repeat: repeat, no-repeat;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    width: 100%;
+}
+.gift p{
+    color: white;
+}
+
+.colonne{
+    background-color: white;
+    margin-top: 2em;
+}
+
+.find {
+    text-align: left;     
+    margin-top: 1em;      
+}
+
+.find h3, .find p {
+    display: inline-block;   
+    margin-top: 1em;                
+    padding-left: 1%;               
+}
+
+.find h3 {
+    color: black;
+    margin-right: 1em;  
+}
+
+.find p {
+    margin-left: 0.5em; 
+}
+
+.find a {
+    text-decoration: none;
+    color: rgb(34, 134, 134);
+    margin-left: 0.5em;
+}
+
+
+
+
+.contenitori {
+    text-align: center;  
+    display: block; 
+    width: 100%;
+}
+
+.immagini {
+    display: inline-block;  
+    width: 23%;  
+    height: 30vw;  
+    object-fit: cover;  
+    border-radius: 15px;  
+    margin: 0.5em;
+}
+ .cuffie{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 1em;
+ }
+.cuffiesotto{
+    text-align: center;
+}
+.cuffiesotto p, .cuffiesotto p a{
+    display: inline-block;   
+    margin-bottom: 1em;               
+}
+.cuffiesotto p a{
+    text-decoration: none;
+}
+
+aside{
+    background-color: #405C79; 
+    padding: 0.5% 0;  
+    text-align: left;
+    padding-left: 2%;
+}
+aside a{
+    color: white;
+}
+aside p{
+    text-align: center;
+}
+footer{
+    background-color: #232F3E;
+    padding: 20px 0;
+    text-align: center;
+    padding-left: 2%;
+}
+footer img{
+    width: 10%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
